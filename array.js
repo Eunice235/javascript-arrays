@@ -128,4 +128,10 @@ const companies= [
     .reduce((a, b) => a + b, 0);
   
   console.log(combined);
+
+  // other array methods 
+  // array length gives the length size of an arry
+  const fruits = ["banana", "mango", "oranges", "apple"]
+  const size = fruits.length;
+  console.log(size)
   
